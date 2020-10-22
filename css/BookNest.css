@@ -21,20 +21,27 @@ section
   height: fit-content;
   background-color: #E7DCC7;
   display: block;
-  
   z-index:auto;
 }
 
 h1
 {
   color: #000;
-  font-size: 34px;
+  
   font-family:"Alegreya Sans SC", serif;
   font-weight: bold;
   padding-left: 20px;
   padding-top: 20px;
 }
 
+h3{
+  color: #000;
+  
+  font-family:"Alegreya Sans SC", serif;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 20px;
+}
 p 
 {
   color:#026873 ;
@@ -103,13 +110,18 @@ p
   
 }
 /*Process*/
-.imgAlign
+.imgAlign 
 {
-  height:auto;
-  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
 }
 
-
+.imgAlign img{
+  width:1000px;
+  height: auto;
+}
 
 .researchQues
 {
@@ -121,11 +133,16 @@ p
   margin-left: 20px;
 }
 
-.User_persona
+.User_persona_div
 {
-  width: 50%;
-  height: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   
+}
+
+.col-md-3 img{
+  padding: 20px;
 }
 
 

@@ -1,0 +1,146 @@
+html{
+    padding: 10px;
+    overflow-x: hidden;
+  }
+  
+  
+  .flexHeader
+  {
+    width: 100%;
+    height: 650px;
+    background-color:#F2D0D7;
+    display: flex;
+  }
+  
+  section
+  {
+    width: 100%;
+    height: fit-content;
+    background-color:#F2C0A2;
+    display: block;
+    z-index:auto;
+  }
+  
+  h1
+  {
+    color: #000;
+    
+    font-family:"Alegreya Sans SC", serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  h3{
+    color: #000;
+    
+    font-family:"Alegreya Sans SC", serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  p 
+  {
+      /*Header
+    color:#026873 ;*/
+    color: #591E34;
+    font-family: "Source Sans Pro", Sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 20px;
+  }
+  
+  /*Header*/
+  .content
+  {
+    width: calc( 50% - 40px) ;
+    height: 100%;
+    background:#F2D0D7 ;
+    padding-top: 20px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+  }
+  
+  .imgBox
+   {
+    width: calc( 50% + 40px );
+    height: 100%;
+    background:#F2D0D7;
+    border-left: 150px solid  #F2D0D7;
+    border-bottom: 650px solid transparent;
+    box-sizing: border-box;
+  }
+  
+  .headerImage
+  {
+   
+    height: 550px;
+    width: auto;
+    padding:20px;
+  }
+  
+  /*Problem*/
+  .flex
+  {
+    width: 100%;
+    height:450px;
+    background:#F2D0D7;
+    display: flex;
+  }
+  
+  .flexContainer
+  {
+    display: flex;
+    background-color:#F2C0A2;
+    height: 500px;
+  }
+  
+  .ContentBox
+  {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*Solution*/
+  .intro_image
+  {
+    width: 100%;
+    
+  }
+  /*Process*/
+  .imgAlign 
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+  }
+  
+  .imgAlign img{
+    width:1000px;
+    height: auto;
+  }
+  
+  .researchQues
+  {
+    color:#026873 ;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    line-height: 40px;
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .User_persona_div
+  {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .col-md-3 img{
+    padding: 20px;
+  }
+  
