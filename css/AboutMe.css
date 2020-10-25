@@ -51,10 +51,10 @@ div
 }
 
 h3{
-
+  
+  text-decoration: solid underline  #ffe187;
   font-family: "poppins", serif;
   padding: 20px;
-  
 }
 
 .letter_spacing
@@ -65,6 +65,7 @@ h3{
 {
   display:flex;
   padding: 20px;
+  width: 130%;
   
 }
 
@@ -77,17 +78,17 @@ h3{
 
 img
 {
-   width: 100%;
+   width: 30%;
    margin-bottom: auto;
    height: auto;
+   margin-left: 200px;
 }
 
 .img1
 {
   display: block;
-  width:30%;
-
- margin:auto;
+  width:40%;
+  margin:auto;
 
 }
 
@@ -131,4 +132,97 @@ img
   width:60px;
   margin-left:50%;
   padding:10px;
+}
+
+footer
+{
+   padding:40px;
+}
+
+.flexIcons
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexIcons ul
+{
+  position: relative;
+  display:flex;
+}
+
+.flexIcons ul li
+{
+  position: relative;
+  list-style: none;
+}
+
+.flexIcons ul li a
+{
+  position: relative;
+  width:80px;
+  height:80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #2e133a;
+  box-shadow: inset -1px -1px 2px rgba(0,0,0,0.2), 2px 2px 5px rgba(0,0,0,0.2);
+  transition: 0.5s;
+}
+
+.flexIcons ul li a:hover
+{
+  color:#999;
+  background-color: #f2f2f2;
+  transform: translateY(-20px);
+  box-shadow: inset -1px -1px 2px rgba(0,0,0,0.2), 2px 24px 10px rgba(0,0,0,0.1);
+}
+
+.flexIcons ul li a:before
+{
+  content:'';
+  position: absolute;
+  top:10px;
+  bottom:10px;
+  left:10px;
+  right:10px;
+  border-radius: 50%;
+  border: 2px solid rgba(0,0,0,0.1);
+}
+ul li a .fa
+{
+  color: #f2f2f2;
+  position: relative;
+  z-index:1;
+}
+
+
+
+ul li:nth-child(1) a::before
+{
+  background:#2e133a;
+}
+
+
+
+ul li:nth-child(2) a::before
+{
+  background: #2e133a;
+  
+}
+
+ul li:nth-child(3) a::before
+{
+  background:#2e133a;
+}
+
+ul li:nth-child(4) a::before
+{
+  background:#2e133a;
 }
