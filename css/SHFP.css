@@ -1,8 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Source+Sans+Pro&display=swap');
+
 html{
     padding: 10px;
     overflow-x: hidden;
   }
+  button
+{
+  border: 2px solid #2E133A;
+  background-color:#2E133A;
+  border-radius: 5px !important;
+ 
+  font-family: "montserrat" !important;
+  color: white;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   
+}
+
+button:hover
+{
+  background-color:white;
+  color: #2E133A;
+
+}
+
+.button_align
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
   .flexHeader
   {
@@ -63,7 +95,7 @@ html{
   
   .imgBox
    {
-    width: calc( 50% + 40px );
+    
     height: 100%;
     background:#F2D0D7;
     border-left: 150px solid  #F2D0D7;
@@ -106,22 +138,15 @@ html{
   .intro_image
   {
     width: 100%;
+    padding: 20px;
     
   }
-  /*Process*/
-  .imgAlign 
+  .col-xl-6
   {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      
+    margin-bottom: 10px;
+    width:80px;
+    height:auto;
   }
-  
-  .imgAlign img{
-    width:1000px;
-    height: auto;
-  }
-  
   .researchQues
   {
     color:#026873 ;
@@ -142,5 +167,16 @@ html{
   
   .col-md-3 img{
     padding: 20px;
+   
   }
+  
+  .flexContainer1
+  {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color:#F2C0A2;
+    height: 500px;
+  }
+
   
