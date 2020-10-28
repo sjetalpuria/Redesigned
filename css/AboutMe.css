@@ -33,6 +33,36 @@ div
   background-size: cover;
   background-position: center;
 }
+
+button
+{
+  border: 2px solid #2E133A;
+  background-color:#2E133A;
+  border-radius: 5px !important;
+ 
+  font-family: "montserrat" !important;
+  color: white;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  
+}
+
+button:hover
+{
+  background-color:white;
+  color: #2E133A;
+
+}
+
+.button_align
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
 .AboutMe
 {
   letter-spacing: 4px;
