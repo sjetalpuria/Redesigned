@@ -18,6 +18,8 @@
          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
         crossorigin="anonymous">  
 
+        <!--AOS css-->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         
       </head>
@@ -36,9 +38,9 @@
 <body>
     <section>
        
-        <div class="flex">
-            <div style="width: 2500px;">
-                <img src= "Images/sapiens (2).svg" class="Header_image">
+        <div class="flex" >
+            <div style="width: 2500px;" data-aos="fade-right" data-aos-duration="3000">
+                <img src= "Images/sapiens (2).svg" class="Header_image" >
             </div>  
           
             <div class="my_Name">
@@ -52,7 +54,7 @@
 
             
 
-            <div class="my_para">
+            <div class="my_para"  data-aos="fade-left" data-aos-duration="3000">
                 <p>
                  I am Shivani Jetalpuria, UX/UI designer and front-end developer familiar 
                 with C, C++, Python. I am a passionate User Interface (UI) and User Experience (UX). 
@@ -74,11 +76,11 @@
    
     </section>
 
-    <section>
+    <section style="overflow-y: hidden;">
       
         <div id="Projects">
             <h2 class="projects">
-                Projects
+               <span> Projects </span>
             </h2>
         </div>
 
@@ -164,7 +166,7 @@
           
         </div> -->
         
-           <div class="row">
+           <div class="row" data-aos="zoom-in-up" data-aos-duration="3000" >
             <div class="card col-lg-3">
               <img src="Images/SHFP/Showoff_Image.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -211,7 +213,7 @@
               </div>
             </div>
 
-            <div class="card col-lg-3">
+            <div class="card col-lg-3" data-aos="zoom-in-up" data-aos-duration="3000">
               <img src="Images/photo-1529088148495-2d9f231db829.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Redesigned Angel Cat Pet Adoption website</h5>
@@ -236,14 +238,14 @@
     <section>
         <div id="Skills">
             <h2>
-                Skills
+               <span> Skills </span>
             </h2>
         </div>
 
         <div>
             <div class="inline-block_Skills">
              
-              <div>
+              <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
 
                 <img src="Images/undraw_design_data_khdb.svg">
                 <h4>UX Design</h4>
@@ -257,7 +259,7 @@
                 </ul>
               </div>
 
-              <div>
+              <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
 
                 <img src="Images/undraw_design_tools_42tf.svg">
                 <h4>UI Design</h4>
@@ -275,7 +277,7 @@
           </div>  
 
           <div class="inline-block_Skills">
-            <div>
+            <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
 
               <img src="Images/undraw_work_chat_erdt.svg">
               <h4>Communication</h4>
@@ -288,7 +290,7 @@
               </ul>
             </div>
 
-            <div>
+            <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
 
               <img src="Images/undraw_proud_coder_7ain.svg">
               <h4>Front-end</h4>
@@ -301,7 +303,7 @@
               </ul>
             </div>
            
-            <div>
+            <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
 
               <img src="Images/undraw_programmer_imem.svg">
               <h4>Back-end</h4>
@@ -367,6 +369,7 @@
     
    
     <footer>
+      <div id="Contact">
       <div class="flexIcons">
          <ul>
            <li><a href="mailto:shivani.jetalpuria@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
@@ -381,11 +384,19 @@
       <div class="flexIcons">
         <i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; Copyright 2020 All rights reserved
       </div>
+    </div>
      </footer>
  
     <!--Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+
+    <!--AOS-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init();
+</script>
+
 </body>
 </html>

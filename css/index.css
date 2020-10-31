@@ -283,6 +283,13 @@ nav ul li a
   font-size: 16px;
 }
 
+#Skills span
+{
+  background-image: url(../Images/Add_a_heading_4.png);
+  background-size: cover;
+  background-position:bottom;
+  background-repeat: no-repeat;
+}
 .inline-block_Skills
 {
   display:flex;
@@ -353,11 +360,11 @@ nav ul li a
 
 }
 
-.projects
+.projects span
 {
-  background-image: url(../Images/Untitled_design__3_-removebg-preview.png);
-  background-size: contain;
-  background-position: 10px bottom;
+  background-image: url(../Images/Add_a_heading_4.png);
+  background-size: cover;
+  background-position:bottom;
   background-repeat: no-repeat;
   
 }
