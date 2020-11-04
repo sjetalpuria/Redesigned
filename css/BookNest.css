@@ -58,7 +58,7 @@ p
 /*Header*/
 .content
 {
-  width: calc( 50% - 40px) ;
+  width: 100% ;
   height: 100%;
   background:#C2C5FF ;
   padding-top: 20px;
@@ -68,12 +68,10 @@ p
 
 .imgBox
  {
-  width: calc( 50% + 40px );
+  width: 100%;
   height: 100%;
   background:#C2C5FF  ;
-  border-left: 150px solid  #C2C5FF;
-  border-bottom: 650px solid transparent;
-  box-sizing: border-box;
+  margin-left: 100px;
 }
 
 .headerImage
@@ -148,5 +146,179 @@ p
 .col-md-3 img{
   padding: 20px;
 }
+@media only screen and (max-width:768px){
+html{
+  padding: 10px;
+  overflow-x: hidden;
+}
 
+body
+{
+  background-color: #f8edeb;
+}
+.flexHeader
+{
+  width: 100%;
+  height: 650px;
+  background-color: #C2C5FF;
+  display: flex;
+  flex-direction: column;
+}
+
+section
+{
+  width: 100%;
+  height: fit-content;
+  background-color: #E7DCC7;
+  display: block;
+  z-index:auto;
+}
+
+h1
+{
+  color: #000;
+  text-align: left;
+  font-family:"Alegreya Sans SC", serif;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+
+}
+
+h3{
+  color: #000;
+  
+  font-family:"Alegreya Sans SC", serif;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+p 
+{
+  color:#026873 ;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+/*Header*/
+.content
+{
+  width: 100% ;
+  height: 100%;
+  background:#C2C5FF ;
+  padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.imgBox
+ {
+  width:100%;
+  height: 100%;
+  background:#C2C5FF  ;
+  margin-left: auto;
+}
+
+.headerImage
+{
+ 
+  height: 250px;
+  width: auto;
+  padding:20px;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+/*Problem*/
+.flex
+{
+  width: 100%;
+  height:450px;
+  background:#D9A7A7;
+  display: flex;
+  
+}
+
+.flexContainer
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #E7DCC7;
+  height: 500px;
+}
+
+.ContentBox
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*Solution*/
+.intro_image
+{
+  width: 60%;
+  margin-right: 80px;
+  margin-left:80px;
+  
+}
+/*Process*/
+.imgAlign 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.imgAlign img{
+  width:200px;
+  height: auto;
+}
+
+.researchQues
+{
+  color:#026873 ;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  line-height: 40px;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-left: 10px;
+}
+
+.User_persona_div
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.persona_mob
+{
+   width:300px !important;
+}
+
+.feature_mob
+{
+  width:300px;
+}
+
+.flow_mob
+{
+  width:300px;
+}
+.col-md-3 img{
+  padding: 40px; 
+}
+
+}
 
