@@ -147,11 +147,13 @@ p
   padding: 20px;
 }
 @media only screen and (max-width:768px){
-html{
-  padding: 10px;
-  overflow-x: hidden;
+  *{
+   
+    margin: 0px;
+    padding-top: 0px;
+    overflow-x: hidden;
+           
 }
-
 body
 {
   background-color: #f8edeb;
