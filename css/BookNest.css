@@ -231,7 +231,7 @@ p
   height: 250px;
   width: auto;
   padding:20px;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-right: 80px;
 }
 
@@ -279,7 +279,7 @@ p
 }
 
 .imgAlign img{
-  width:200px;
+  width:400px;
   height: auto;
 }
 
@@ -304,17 +304,17 @@ p
 
 .persona_mob
 {
-   width:300px !important;
+   width:400px;
 }
 
 .feature_mob
 {
-  width:300px;
+  width:400px;
 }
 
 .flow_mob
 {
-  width:300px;
+  width:400px;
 }
 .col-md-3 img{
   padding: 40px; 
