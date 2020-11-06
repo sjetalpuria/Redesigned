@@ -85,7 +85,7 @@ button:hover
   /*Header*/
   .content
   {
-    width: calc( 50% - 40px) ;
+    width:100%;
     height: 100%;
     background:#F2D0D7 ;
     padding-top: 20px;
@@ -98,18 +98,9 @@ button:hover
     
     height: 100%;
     background:#F2D0D7;
-    border-left: 150px solid  #F2D0D7;
-    border-bottom: 650px solid transparent;
-    box-sizing: border-box;
+   
   }
   
-  .headerImage
-  {
-   
-    height: 550px;
-    width: auto;
-    padding:20px;
-  }
   
   /*Problem*/
   .flex
@@ -179,4 +170,185 @@ button:hover
     height: 500px;
   }
 
+  @media only screen and (max-width:768px){
+
+    html{
+      padding: 5px;
+      overflow-x: hidden;
+    }
+
+
+    button
+  {
+    border: 2px solid #2E133A;
+    background-color:#2E133A;
+    border-radius: 5px !important;
+   
+    font-family: "montserrat" !important;
+    color: white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+  }
   
+  button:hover
+  {
+    background-color:white;
+    color: #2E133A;
+  
+  }
+  
+  .button_align
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+    .flexHeader
+    {
+      width: 100%;
+      height: 650px;
+      background-color:#F2D0D7;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    section
+    {
+      width: 100%;
+      height: fit-content;
+      background-color:#F2C0A2;
+      display: block;
+      z-index:auto;
+    }
+    
+    h1
+    {
+      color: #000;
+      
+      font-family:"Alegreya Sans SC", serif;
+      font-weight: bold;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+    
+    h3{
+      color: #000;
+      
+      font-family:"Alegreya Sans SC", serif;
+      font-weight: bold;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+
+    p 
+    {
+        /*Header*/
+      color: #591E34;
+      font-family: "Source Sans Pro", Sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 10px;
+    }
+    
+    /*Header*/
+    .content
+    {
+      width: 100%;
+      height: 100%;
+      background:#F2D0D7 ;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      
+    }
+    
+    .imgBox
+     {
+      height: 20%;
+      background:#F2D0D7;
+    }
+    
+    .header_mob
+  {
+    height:220px;
+    width: auto;
+    padding:10px;
+  }
+  
+    
+    /*Problem*/
+    .flex
+    {
+      width: 100%;
+      height:450px;
+      background:#F2D0D7;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .flexContainer
+    {
+      display: flex;
+     
+      background-color:#F2C0A2;
+      height: 500px;
+    }
+    
+    .ContentBox
+    {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /*Solution*/
+    .intro_image
+    {
+      width: 100%;
+      padding: 10px;
+      
+    }
+    .col-xl-6
+    {
+      margin-bottom: 10px;
+      width:80px;
+      height:auto;
+    }
+    .researchQues
+    {
+      color:#026873 ;
+      font-family: "Source Sans Pro";
+      font-size: 24px;
+      line-height: 40px;
+      padding-top: 10px;
+      margin-left: 10px;
+    }
+    
+    .User_persona_div
+    {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .col-md-3 img{
+      padding: 10px;
+     
+    }
+    
+    .flexContainer1
+    {
+      display: flex;
+      justify-content: space-evenly;
+  
+      background-color:#F2C0A2;
+      height: 500px;
+    }
+  
+  }
